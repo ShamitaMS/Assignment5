@@ -1,0 +1,8 @@
+flask
+groq
+fastapi
+uvicorn
+requests
+jinja2
+pydantic
+python-dotenv  # Optional, if you're using a .env file for environment variables

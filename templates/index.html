@@ -1,0 +1,15 @@
+<!doctype html>
+<html>
+    <body>
+        <h1>GitHub Commit Summarizer</h1>
+        <form method="post">
+            <label for="repo_url">GitHub Repo URL:</label>
+            <input type="text" name="repo_url" required>
+            <button type="submit">Generate Summary</button>
+        </form>
+        {% if summary %}
+            <h2>Commit Summary:</h2>
+            <p>{{ summary }}</p>
+        {% endif %}
+    </body>
+</html>
